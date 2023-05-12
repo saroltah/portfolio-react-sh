@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import images from "./images";
 
 export default function Projects() {
   return (
@@ -11,7 +12,7 @@ export default function Projects() {
         <div className="row">
           <div className="col-lg-4">
             <img
-              src="src/images/bob-ross-project.png"
+              src={images.bobRossProject}
               alt="bob-ross-project-image"
               className="img-fluid project-image first-image"
             />
@@ -40,7 +41,7 @@ export default function Projects() {
           </div>
           <div className="col-lg-4">
             <img
-              src="src/images/react weather-app.png"
+              src={images.reactWeatherApp}
               alt="react weather-app"
               className="img-fluid project-image"
             />
@@ -73,7 +74,7 @@ export default function Projects() {
           </div>
           <div className="col-lg-4">
             <img
-              src="src/images/cities-app.png"
+              src={images.citiesApp}
               alt="bpimage"
               className="img-fluid project-image"
             />
@@ -102,7 +103,7 @@ export default function Projects() {
           </div>
           <div className="col-lg-4">
             <img
-              src="src/images/english-dictionary.png"
+              src={images.englishDictionary}
               alt="English dictionary app"
               className="img-fluid project-image"
             />
@@ -133,7 +134,7 @@ export default function Projects() {
           </div>
           <div className="col-lg-4">
             <img
-              src="src/images/world-clock.png"
+              src={images.worldClock}
               alt="world clock app"
               className="img-fluid project-image"
             />
@@ -166,7 +167,7 @@ export default function Projects() {
           </div>
           <div className="col-lg-4">
             <img
-              src="src/images/climbing-project.png"
+              src={images.climbingProject}
               alt="climbing project image"
               className="img-fluid project-image"
             />

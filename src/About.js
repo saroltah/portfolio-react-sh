@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import images from "./images";
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
           </div>
           <div className="col-md-5">
             <img
-              src="src/images/én.jpg"
+              src={images.portre}
               alt="photo about Sarolta Hegyi"
               className="img-fluid image-about-me"
             />
