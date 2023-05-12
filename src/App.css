@@ -8,6 +8,17 @@ body {
   color: white;
   margin: 50px 50px;
 }
+.link {
+  padding: 20px;
+}
+.url {
+  color: #edc4d1;
+}
+@media (max-width: 775px) {
+  .link {
+    padding: 10px;
+  }
+}
 @media (max-width: 767px) {
   body {
     text-align: center;
@@ -17,5 +28,11 @@ body {
   body {
     padding: 0px 0px;
     margin: 0px 0px;
+  }
+}
+@media (max-width: 427px) {
+  .link {
+    font-size: 15px;
+    padding: 2px;
   }
 }
