@@ -1,0 +1,51 @@
+.Projects {
+  margin: 0px 40px;
+}
+.check-out {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.project-image {
+  margin: 30px 0px;
+  max-width: 300px;
+  border-radius: 20px;
+  border: solid 2px black;
+}
+.project-description {
+  text-align: justify;
+  margin-top: 20px;
+}
+.project-about {
+  color: rgb(203 238 241);
+}
+@media (max-width: 1078px) {
+  .project-image {
+    max-width: 270px;
+  }
+}
+@media (max-width: 991px) {
+  .Projects,
+  .project-description {
+    text-align: center;
+  }
+  .project-image {
+    max-width: 500px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+  }
+}
+@media (max-width: 767px) {
+  .check-out {
+    color: #f51095;
+  }
+  .first-image {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 669px) {
+  .project-image {
+    position: relative;
+    max-width: 100%;
+  }
+}

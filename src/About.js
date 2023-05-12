@@ -78,7 +78,7 @@ export default function About() {
             </p>
             <p>
               {" "}
-              Currently learning <strong>Next.js</strong>{" "}
+              Currently learning <strong>Next.js</strong>.{" "}
             </p>
           </div>
         </div>
