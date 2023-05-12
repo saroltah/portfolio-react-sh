@@ -8,3 +8,14 @@ body {
   color: white;
   margin: 50px 50px;
 }
+@media (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+}
+@media (max-width: 409px) {
+  body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+}
