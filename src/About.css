@@ -4,7 +4,7 @@
   margin-bottom: 60px;
   line-height: 130px;
   text-shadow: 5px 5px 10px rgba(245, 16, 149, 0.4);
-  color: #f51095;
+  color: var(--dark-pink);
 }
 .title {
   font-size: 45px;
@@ -31,7 +31,7 @@
   line-height: 23px;
 }
 .main-line {
-  color: #f51095;
+  color: var(--dark-pink);
 }
 .technologies {
   margin-top: 40px;

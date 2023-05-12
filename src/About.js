@@ -28,12 +28,12 @@ export default function About() {
                 <ul>
                   <li>VS Code</li>
                   <li>
-                    GitHub -
+                    GitHub -{" "}
                     <a
                       href="https://github.com/saroltah/ "
                       target="_blank"
                       title="my github account"
-                      className="project-"
+                      className="project url"
                     >
                       @saroltah{" "}
                     </a>

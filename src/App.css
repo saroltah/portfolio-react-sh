@@ -1,13 +1,19 @@
-html {
-  min-height: 100%;
-}
-body {
-  background: linear-gradient(
+:root {
+  --light-pink: #edc4d1;
+  --gradient-pink: linear-gradient(
     360deg,
     rgb(96, 9, 58) 0%,
     rgb(77, 6, 47) 36%,
     rgb(4, 4, 4) 100%
   );
+  --light-blue: rgb(203 238 241);
+  --dark-pink: #f51095;
+}
+html {
+  min-height: 100%;
+}
+body {
+  background: var(--gradient-pink);
   color: white;
   margin: 50px 50px;
 }
@@ -15,7 +21,7 @@ body {
   padding: 20px;
 }
 .url {
-  color: #edc4d1;
+  color: var(--light-pink);
 }
 @media (max-width: 775px) {
   .link {
