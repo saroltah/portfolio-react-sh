@@ -21,7 +21,7 @@ export default function Footer() {
             <i
               className="fa-brands fa-square-github icon"
               alt="github icon"
-            ></i>
+            ></i>{" "}
             GitHub
           </a>
           <a
@@ -30,7 +30,7 @@ export default function Footer() {
             title="my linkedin"
             className="link url"
           >
-            <i className="fa-brands fa-linkedin icon" alt="linkedin icon"></i>
+            <i className="fa-brands fa-linkedin icon" alt="linkedin icon"></i>{" "}
             LinkedIn
           </a>
           <a
@@ -39,7 +39,7 @@ export default function Footer() {
             title="my resume"
             class="link url resume"
           >
-            <i className="fa-solid fa-print  icon" alt="print-resume icon"></i>
+            <i className="fa-solid fa-print  icon" alt="print-resume icon"></i>{" "}
             Resume
           </a>
           <br />
@@ -52,7 +52,7 @@ export default function Footer() {
             <i
               className="fa-solid fa-envelope icon"
               alt="print-resume icon"
-            ></i>
+            ></i>{" "}
             sarolta.hegyi@gmail.com
           </a>
         </div>
